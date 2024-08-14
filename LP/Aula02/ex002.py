@@ -7,9 +7,7 @@ quantidade = int(input("Qual a quantidade do produto: "))
 total = valor * quantidade
 
 print(
-  f"""
-Compra aceita: 
-Produto:{nome}
-Valor Total: R${total}
+  f"""  
+   {total}
 """
 )

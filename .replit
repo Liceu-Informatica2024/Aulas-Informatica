@@ -1,8 +1,8 @@
-modules = ["python-3.10", "web"]
+modules =stable-24_05"
+
+[deployment] ["python-3.10", "web"]
 run = "python main.py"
 
 [nix]
-channel = "stable-24_05"
-
-[deployment]
+channel = "
 run = ["sh", "-c", "python main.py"]
